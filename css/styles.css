@@ -15,21 +15,6 @@
   --gutter: clamp(1.25rem, 5vw, 2.5rem);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0F1A22;
-    --bg-alt: #132430;
-    --glow-a: rgba(125, 184, 195, 0.16);
-    --glow-b: rgba(217, 174, 99, 0.10);
-    --surface: #192330;
-    --text: #E4EBF0;
-    --muted: #9BAAB6;
-    --accent: #7DB8C3;
-    --link: #8CC3CD;
-    --warm: #D9AE63;
-    --line: #2A3745;
-  }
-}
 
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
