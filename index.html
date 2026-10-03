@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>María Angélica Piedrahita Ramírez | Datos y ciberseguridad</title>
+  <meta name="description" content="Estudiante de Ingeniería de Sistemas en la Javeriana. Datos a gran escala y ciberseguridad. Busco prácticas profesionales.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#F2F5F7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#11181F" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="María Angélica Piedrahita Ramírez">
+  <meta property="og:description" content="Datos a gran escala y ciberseguridad. Busco prácticas profesionales.">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:locale:alternate" content="en_US">
+  <!-- TODO: añadir og:image (assets/og.png, 1200x630) -->
+  <meta property="og:url" content="https://angepiedrahita87.github.io/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Young+Serif&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='9' fill='%233F7F8C'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#contenido" data-i18n="a11y.skip">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#inicio">Ange</a>
+      <nav aria-label="Principal" class="nav">
+        <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+        <a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a>
+        <a href="#trayectoria" data-i18n="nav.path">Trayectoria</a>
+        <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+      </nav>
+      <button class="lang" id="lang-toggle" type="button" aria-label="Switch to English">EN</button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section id="inicio" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="hello" data-i18n="hero.hello">Hola, soy Ange.</p>
+          <h1>María Angélica Piedrahita Ramírez</h1>
+          <p class="lead" data-i18n="hero.lead"></p>
+          <div class="actions">
+            <a class="btn primary" href="#proyectos" data-i18n="hero.cta_projects">Ver proyectos</a>
+            <a class="btn" href="#contacto" data-i18n="hero.cta_contact">Contactarme</a>
+          </div>
+        </div>
+        <figure class="dots-fig">
+          <div class="dots" id="dots" role="img" aria-labelledby="dots-cap"></div>
+          <figcaption id="dots-cap" data-i18n="hero.dots_caption"></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section" aria-labelledby="h-about">
+      <div class="wrap narrow">
+        <h2 id="h-about" data-i18n="about.title">Sobre mí</h2>
+        <div id="about-body" class="prose"></div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section" aria-labelledby="h-projects">
+      <div class="wrap">
+        <h2 id="h-projects" data-i18n="projects.title">Proyectos</h2>
+        <p class="section-intro" data-i18n="projects.intro"></p>
+        <div id="projects-featured" class="featured"></div>
+        <div id="projects-list" class="rows"></div>
+      </div>
+    </section>
+
+    <section id="trayectoria" class="section" aria-labelledby="h-path">
+      <div class="wrap narrow">
+        <h2 id="h-path" data-i18n="path.title">Experiencia y formación</h2>
+        <ol id="timeline" class="timeline"></ol>
+        <h3 data-i18n="path.education">Formación</h3>
+        <div id="education" class="education"></div>
+      </div>
+    </section>
+
+    <section id="certificaciones" class="section" aria-labelledby="h-certs">
+      <div class="wrap narrow">
+        <h2 id="h-certs" data-i18n="certs.title">Certificaciones</h2>
+        <ul id="certs" class="certs"></ul>
+      </div>
+    </section>
+
+    <section id="contacto" class="section" aria-labelledby="h-contact">
+      <div class="wrap narrow">
+        <h2 id="h-contact" data-i18n="contact.title">Contacto</h2>
+        <p class="section-intro" data-i18n="contact.intro"></p>
+        <ul id="contact-list" class="contact"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p data-i18n="footer.text"></p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
